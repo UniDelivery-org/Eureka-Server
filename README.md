@@ -1,6 +1,6 @@
-## UniDelivery – Eureka Service
+## UniDelivery – Eureka Server
 
-The **Eureka Service** is the **service discovery server** for the UniDelivery microservices platform.  
+The **Eureka Server** is the **service discovery server** for the UniDelivery microservices platform.  
 It acts as a **central registry** where all other backend services (gateway, user, vehicle, delivery, wallet, tracking, etc.) register themselves and from which they discover each other.
 
 ---
@@ -73,7 +73,7 @@ eureka.dashboard.enabled=true
 
 ---
 
-### 4. Running the Eureka Service
+### 4. Running the Eureka Server
 
 - **Using Maven**
 
@@ -127,7 +127,7 @@ This allows:
 
 ### 6. UML – Component View
 
-The following UML-style component diagram (using **Mermaid**) shows how the Eureka Service fits into the overall UniDelivery architecture.
+The following UML-style component diagram (using **Mermaid**) shows how the Eureka Server fits into the overall UniDelivery architecture.
 
 ```mermaid
 graph TD
